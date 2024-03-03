@@ -3,6 +3,8 @@ import HomeView from '../views/HomeView.vue'
 
 import Login from '../components/auth/Login.vue'
 import Register from '../components/auth/Register.vue'
+import AddProduct from '../components/product/AddProduct.vue'
+import Productlist from '../components/product/ProductList.vue'
 
 
 const router = createRouter({
@@ -20,6 +22,19 @@ const router = createRouter({
       component: Register,
       meta:{public:true}
     },
+    {
+      path: '/add-product',
+      name: 'AddProduct',
+      component: AddProduct,
+      meta:{public:false}
+    },
+    {
+      path: '/product-list',
+      name: 'Productlist',
+      component: Productlist,
+      meta:{public:false}
+    },
+
     {
       path: '/',
       name: 'home',

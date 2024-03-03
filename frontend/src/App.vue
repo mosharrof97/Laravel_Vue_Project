@@ -14,8 +14,8 @@ export default {
   <div class="">
     <Navbar />
     <div id="app">
-      <router-view />
-      <!-- <RouterView /> -->
+      <!-- <router-view /> -->
+      <RouterView />
     </div>
   </div>
 </template>
