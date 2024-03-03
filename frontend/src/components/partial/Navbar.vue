@@ -13,7 +13,7 @@
             <router-link to="/add-product" class="nav-link" v-if="isLoggedIn">Add Product</router-link> 
           </li>
           <li class="nav-item">
-            <router-link to="/product-list"  class="nav-link"v-if="isLoggedIn">Products</router-link> 
+            <router-link to="/product-list"  class="nav-link" v-if="isLoggedIn">Products</router-link> 
           </li><li class="nav-item"> 
             <a href="#" @click="logout" class="nav-link" v-if="isLoggedIn">Logout</a>
           </li>
