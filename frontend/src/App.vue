@@ -1,13 +1,13 @@
 <script>
-// import { RouterLink, RouterView } from "vue-router";
-import Navbar from './components/partial/Navbar.vue';
+import { RouterLink, RouterView } from "vue-router";
+import Navbar from "./components/partial/Navbar.vue";
 
 export default {
-  components:{
+  components: {
     Navbar,
   },
-  name:'App',
-}
+  name: "App",
+};
 </script>
 
 <template>
@@ -15,8 +15,9 @@ export default {
     <Navbar />
     <div id="app">
       <router-view />
+      <!-- <RouterView /> -->
     </div>
-  </div>  
+  </div>
 </template>
 
 
